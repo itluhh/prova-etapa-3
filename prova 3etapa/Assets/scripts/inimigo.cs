@@ -17,8 +17,8 @@ public class Inimigo : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         rigidbody2D = GetComponent<Rigidbody2D>();
         
-       // player = GameObject.Find("Player");
-       player = GameObject.FindGameObjectWithTag("Player");
+        // player = GameObject.Find("Player");
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
    

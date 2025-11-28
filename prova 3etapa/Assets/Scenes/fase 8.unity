@@ -50384,6 +50384,7 @@ GameObject:
   - component: {fileID: 786096295}
   - component: {fileID: 786096294}
   - component: {fileID: 786096299}
+  - component: {fileID: 786096300}
   m_Layer: 0
   m_Name: inimigo 4 (4)
   m_TagString: Untagged
@@ -50425,7 +50426,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.022169113, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -50435,7 +50436,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.375, y: 1}
+  m_Size: {x: 0.97594833, y: 1}
   m_EdgeRadius: 0
 --- !u!50 &786096295
 Rigidbody2D:
@@ -50570,6 +50571,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanciaDeVisao: 5
   velocidade: 5
+--- !u!114 &786096300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786096293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c94d04a5e3c5a745a9324ba6f4a7ceb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1509148245
 GameObject:
   m_ObjectHideFlags: 0
@@ -198969,6 +198982,7 @@ GameObject:
   - component: {fileID: 1873462989}
   - component: {fileID: 1873462988}
   - component: {fileID: 1873462993}
+  - component: {fileID: 1873462994}
   m_Layer: 0
   m_Name: inimigo 4 (5)
   m_TagString: Untagged
@@ -199010,7 +199024,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.04433918, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -199020,7 +199034,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.375, y: 1}
+  m_Size: {x: 0.7542515, y: 1}
   m_EdgeRadius: 0
 --- !u!50 &1873462989
 Rigidbody2D:
@@ -199155,6 +199169,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanciaDeVisao: 5
   velocidade: 5
+--- !u!114 &1873462994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873462987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c94d04a5e3c5a745a9324ba6f4a7ceb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1919189047
 GameObject:
   m_ObjectHideFlags: 0

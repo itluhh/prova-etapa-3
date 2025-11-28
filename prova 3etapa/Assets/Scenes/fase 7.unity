@@ -735,6 +735,7 @@ GameObject:
   - component: {fileID: 786096295}
   - component: {fileID: 786096294}
   - component: {fileID: 786096299}
+  - component: {fileID: 786096300}
   m_Layer: 0
   m_Name: inimigo 4 (4)
   m_TagString: Untagged
@@ -776,7 +777,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.07589722, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -786,7 +787,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.375, y: 1}
+  m_Size: {x: 0.8184204, y: 1}
   m_EdgeRadius: 0
 --- !u!50 &786096295
 Rigidbody2D:
@@ -921,6 +922,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanciaDeVisao: 5
   velocidade: 5
+--- !u!114 &786096300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786096293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c94d04a5e3c5a745a9324ba6f4a7ceb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &908700238
 GameObject:
   m_ObjectHideFlags: 0
@@ -1109,7 +1122,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.025299072, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1119,7 +1132,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.5, y: 1.375}
+  m_Size: {x: 0.8422241, y: 1.375}
   m_EdgeRadius: 0
 --- !u!1 &1215491271
 GameObject:
@@ -1295,7 +1308,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.025297165, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1305,7 +1318,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.5, y: 1.375}
+  m_Size: {x: 0.9434166, y: 1.375}
   m_EdgeRadius: 0
 --- !u!114 &1215491277
 MonoBehaviour:
@@ -1385,6 +1398,7 @@ GameObject:
   - component: {fileID: 1736522249}
   - component: {fileID: 1736522248}
   - component: {fileID: 1736522247}
+  - component: {fileID: 1736522253}
   m_Layer: 0
   m_Name: inimigo 2
   m_TagString: Untagged
@@ -1426,7 +1440,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.044338703, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1436,7 +1450,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.25, y: 1.125}
+  m_Size: {x: 0.7179289, y: 1.125}
   m_EdgeRadius: 0
 --- !u!50 &1736522248
 Rigidbody2D:
@@ -1571,6 +1585,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1736522253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736522246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c94d04a5e3c5a745a9324ba6f4a7ceb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1739767299
 GameObject:
   m_ObjectHideFlags: 0
@@ -50971,6 +50997,7 @@ GameObject:
   - component: {fileID: 1874488327}
   - component: {fileID: 1874488326}
   - component: {fileID: 1874488331}
+  - component: {fileID: 1874488332}
   m_Layer: 0
   m_Name: inimigo 4 (1)
   m_TagString: Untagged
@@ -51012,7 +51039,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.022170067, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -51022,7 +51049,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.375, y: 1}
+  m_Size: {x: 0.70990944, y: 1}
   m_EdgeRadius: 0
 --- !u!50 &1874488327
 Rigidbody2D:
@@ -51157,6 +51184,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   distanciaDeVisao: 5
   velocidade: 5
+--- !u!114 &1874488332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874488325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c94d04a5e3c5a745a9324ba6f4a7ceb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1919189047
 GameObject:
   m_ObjectHideFlags: 0
